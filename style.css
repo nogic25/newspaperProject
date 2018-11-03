@@ -36,3 +36,49 @@ nav span {
 a {
     color: black;
 }
+.content{
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 32px;
+}
+.column.large {
+    width: 630px;
+  }
+
+  .column.middle {
+    width: 300px;
+  }
+
+  .column.small {
+    width: 240px;
+  }
+
+  div{
+    border: 1px solid black;  
+  }
+ .lead-story .image-content{
+      background: url("image/img-story-main.png");
+      width: 630px;
+      margin-top: 0;
+      font-size: 40px;
+      text-align:left; 
+  }
+  .image-content{
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      font-family: Georgia;
+      font-weight: bold;
+      color:white;
+      text-align:center;
+      font-size: 30px;
+  }
+  .fall-cancelled.image-content {
+    background-image: url("image/img-story-2.png");
+}
